@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: #f3f3f3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+    .question {
+        padding: 0.5rem;
+
+        &s {
+            margin-bottom: 0.75rem;
+        }
+
+    }
+
+    h3 {
+        margin: 0.2rem !important;
+    }
+
+    .option {
+        // background-color: blue;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        background-color: white;
+        width: 20rem;
+    }
+}

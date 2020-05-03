@@ -1,0 +1,96 @@
+{
+    "quiz": [
+        {
+            "id": 0,
+            "question": "How old am I?",
+            "options": [
+                {
+                    "id": 0,
+                    "value": "24"
+                },
+                {
+                    "id": 1,
+                    "value": "21"
+                },
+                {
+                    "id": 2,
+                    "value": "23"
+                },
+                {
+                    "id": 3,
+                    "value": "22"
+                }
+            ],
+            "answer": "22"
+        },
+        {
+            "id": 1,
+            "question": "What is my favorite video game?",
+            "options": [
+                {
+                    "id": 0,
+                    "value": "Mortal Kombat"
+                },
+                {
+                    "id": 1,
+                    "value": "Nba2k20"
+                },
+                {
+                    "id": 2,
+                    "value": "Fifa20"
+                },
+                {
+                    "id": 3,
+                    "value": "God of War"
+                }
+            ],
+            "answer": "Fifa20"
+        },
+        {
+            "id": 2,
+            "question": "Who is my best friend?",
+            "options": [
+                {
+                    "id": 0,
+                    "value": "Onasanya Oluwatobi"
+                },
+                {
+                    "id": 1,
+                    "value": "Onifade Oluwaseyi"
+                },
+                {
+                    "id": 2,
+                    "value": "Hephzibah Halliday"
+                },
+                {
+                    "id": 3,
+                    "value": "Aramide Akintimehin"
+                }
+            ],
+            "answer": "Onasanya Oluwatobi"
+        },
+        {
+            "id": 3,
+            "question": "Who is my favorite musician?",
+            "options": [
+                {
+                    "id": 0,
+                    "value": "Wizkid"
+                },
+                {
+                    "id": 1,
+                    "value": "Drake"
+                },
+                {
+                    "id": 2,
+                    "value": "Kendrick Lamar"
+                },
+                {
+                    "id": 3,
+                    "value": "Beejay Sax"
+                }
+            ],
+            "answer": "Drake"
+        }
+    ]
+}
