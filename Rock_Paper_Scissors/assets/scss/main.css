@@ -1,0 +1,81 @@
+html {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  margin: 0;
+  background: #f3f3f3;
+  height: 100vh;
+  width: 100vw;
+}
+
+.game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.game h2 {
+  margin-bottom: 2rem;
+}
+
+.game .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.game .options .option {
+  margin: 0 2rem 0 2rem;
+  width: 8rem;
+  height: 8rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0.2rem 0.2rem 1rem 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0.2rem 0.2rem 1rem 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.game .options .option:hover {
+  -webkit-box-shadow: 0.05rem 0.05rem 0.08rem 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0.05rem 0.05rem 0.08rem 0 rgba(0, 0, 0, 0.4);
+}
+
+.game .options .option.rock {
+  background-image: url(../images/rock.jpeg);
+}
+
+.game .options .option.paper {
+  background-image: url(../images/paper.png);
+}
+
+.game .options .option.scissors {
+  background-image: url(../images/scissors.png);
+}
+
+.game .options .option.selected {
+  border: 0.2rem solid #000000;
+}
+
+.game .options .option.disabled {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.2;
+}
+/*# sourceMappingURL=main.css.map */
